@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.jruby.jcodings</groupId>
-  <artifactId>jcodings</artifactId>
-  <version>1.0.63</version>
+  <groupId>io.airlift</groupId>
+  <artifactId>jcodings-internal</artifactId>
+  <version>1.0.63.1-SNAPSHOT</version>
   <name>JCodings</name>
   <description>Byte based encoding support library for java</description>
   <parent>
@@ -31,14 +31,14 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/jruby/jcodings.git</connection>
-    <developerConnection>scm:git:git@github.com:jruby/jcodings.git</developerConnection>
-    <url>https://github.com/jruby/jcodings</url>
+    <connection>scm:git:git://github.com/airlift/jcodings.git</connection>
+    <developerConnection>scm:git:git://github.com/airlift/jcodings.git</developerConnection>
+    <url>https://github.com/airlift/jcodings</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>Github</system>
-    <url>https://github.com/jruby/jcodings/issues</url>
+    <url>https://github.com/airlift/jcodings/issues</url>
   </issueManagement>
   <dependencies>
     <dependency>
