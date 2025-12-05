@@ -914,7 +914,31 @@ public enum UnicodeCodeRange {
     INVARIATIONSELECTORSSUPPLEMENT("invariationselectorssupplement", "CR_In_Variation_Selectors_Supplement"),
     INSUPPLEMENTARYPRIVATEUSEAREAA("insupplementaryprivateuseareaa", "CR_In_Supplementary_Private_Use_Area_A"),
     INSUPPLEMENTARYPRIVATEUSEAREAB("insupplementaryprivateuseareab", "CR_In_Supplementary_Private_Use_Area_B"),
-    INNOBLOCK("innoblock", "CR_In_No_Block");
+    INNOBLOCK("innoblock", "CR_In_No_Block"),
+    // Java character properties
+    JAVALOWERCASE("javalowercase", "CR_javaLowerCase"),
+    JAVAUPPERCASE("javauppercase", "CR_javaUpperCase"),
+    JAVAALPHABETIC("javaalphabetic", "CR_javaAlphabetic"),
+    JAVAIDEOGRAPHIC("javaideographic", "CR_javaIdeographic"),
+    JAVATITLECASE("javatitlecase", "CR_javaTitleCase"),
+    JAVADIGIT("javadigit", "CR_javaDigit"),
+    JAVADEFINED("javadefined", "CR_javaDefined"),
+    JAVALETTER("javaletter", "CR_javaLetter"),
+    JAVALETTERORDIGIT("javaletterordigit", "CR_javaLetterOrDigit"),
+    JAVAJAVAIDENTIFIERSTART("javajavaidentifierstart", "CR_javaJavaIdentifierStart"),
+    JAVAJAVAIDENTIFIERPART("javajavaidentifierpart", "CR_javaJavaIdentifierPart"),
+    JAVAUNICODEIDENTIFIERSTART("javaunicodeidentifierstart", "CR_javaUnicodeIdentifierStart"),
+    JAVAUNICODEIDENTIFIERPART("javaunicodeidentifierpart", "CR_javaUnicodeIdentifierPart"),
+    JAVAIDENTIFIERIGNORABLE("javaidentifierignorable", "CR_javaIdentifierIgnorable"),
+    JAVASPACECHAR("javaspacechar", "CR_javaSpaceChar"),
+    JAVAWHITESPACE("javawhitespace", "CR_javaWhitespace"),
+    JAVAISOCONTROL("javaisocontrol", "CR_javaISOControl"),
+    JAVAMIRRORED("javamirrored", "CR_javaMirrored"),
+    // Additional properties from airlift fork
+    L1("l1", "CR_L1"),
+    LD("ld", "CR_LD"),
+    PERLHORIZONTALWHITESPACE("perlhorizontalwhitespace", "CR_perlHorizontalWhiteSpace"),
+    PERLVERTICALWHITESPACE("perlverticalwhitespace", "CR_perlVerticalWhiteSpace");
 
     private final String table;
     final byte[]name;
